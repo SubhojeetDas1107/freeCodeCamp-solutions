@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    color: #fff;
+}
+
+#main {
+    padding: 0% 20% 0% 20%;
+}
+
+#title {
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.2;
+    padding: 10px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+#description {
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px 30px 0px;
+}
+
+#survey-form {
+    background-color: #2222425d;
+    padding: 17px;
+    border-radius: 17px;
+    margin: 10px 20px 10px 10px;
+}
+
+#submit {
+    background: rgb(0, 107, 54);
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: #3ebd7d;
+    color: black;
+}
+
+.form {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    background: rgba( 255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 1px);
+    -webkit-backdrop-filter: blur( 1px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+@media only screen and (max-width:480px) {
+    #main {
+        padding: 0% 0% 0% 0%;
+    }
+}
